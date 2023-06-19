@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f97c1907.css",
+    "main.js": "/static/js/main.fbb06fad.js",
+    "index.html": "/index.html",
+    "static/media/times-solid.svg": "/static/media/times-solid.ea7c95d7120c0efcb4b16602bf9049a5.svg",
+    "static/media/bars-solid.svg": "/static/media/bars-solid.e8db7520285d01597a75c139d54e29ce.svg",
+    "main.f97c1907.css.map": "/static/css/main.f97c1907.css.map",
+    "main.fbb06fad.js.map": "/static/js/main.fbb06fad.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f97c1907.css",
+    "static/js/main.fbb06fad.js"
+  ]
+}
