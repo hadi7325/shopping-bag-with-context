@@ -15,7 +15,7 @@
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4",
-    "http": "http://hadi7325.github.io/shopping-bag-with-context"
+    "homepage": "http://hadi7325.github.io/shopping-bag-with-context" 
   },
   "scripts": {
     "start": "react-scripts start",
