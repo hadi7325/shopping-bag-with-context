@@ -2,6 +2,7 @@ import React,{useContext, useEffect, useState} from 'react'
 import { Link } from 'react-router-dom'
 import formatCurrency from '../util'
 import { DataContext } from "./Context"
+import { FaTimes } from 'react-icons/fa'
 function Cart() {
     const value = useContext(DataContext)
     const [cart, setCart] = value.cart
@@ -51,7 +52,7 @@ function Cart() {
                         <button onClick={() => decrease(product._id)} className='count' type="">-</button>
                     </div>
                    
-                    <div className='delete' onClick={() => removeItem(product._id)}>X</div>
+                    <div className='delete' onClick={() => removeItem(product._id)}><FaTimes/></div>
 
                 </div>
             </div>
