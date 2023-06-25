@@ -1,6 +1,7 @@
 {
   "name": "first",
   "version": "0.1.0",
+  "homepage": "http://hadi7325.github.io/shopping-bag-with-context",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -14,18 +15,15 @@
     "react-icons-kit": "^2.0.0",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4",
-    "homepage": "http://hadi7325.github.io/shopping-bag-with-context" 
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-
-    
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [

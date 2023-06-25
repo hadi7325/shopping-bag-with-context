@@ -26,12 +26,12 @@ function Header() {
               </Link>
          </div>
          <ul style={styleMenu}>
-              <li><Link to="/">خانه</Link></li>
-              <li><Link to="/products">محصولات</Link></li>
-              <li><Link to="/">درباره ما</Link></li>
-              <li><Link to="/">تماس با ما</Link></li>
-              <li><Link to="/">ثبت نام / ورود</Link></li>
-              <li> <img src={Close} width="30" className='menu' onClick={toggleMenu} alt=""/></li>
+              <li onClick={toggleMenu}><Link  to="/">خانه</Link></li>
+              <li onClick={toggleMenu}><Link to="/products">محصولات</Link></li>
+              <li onClick={toggleMenu}><Link to="/">درباره ما</Link></li>
+              <li onClick={toggleMenu}><Link to="/">تماس با ما</Link></li>
+              <li onClick={toggleMenu}><Link to="/">ثبت نام / ورود</Link></li>
+              <li onClick={toggleMenu}> <img src={Close} width="30" className='menu' onClick={toggleMenu} alt=""/></li>
          </ul>
          <div className="logo">
               <Link to="/">ModernKala</Link>

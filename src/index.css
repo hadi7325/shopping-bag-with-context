@@ -18,6 +18,17 @@ body {
   padding: 0 30px;
 }
 
+.message{
+  text-align: center;
+  background-color: aquamarine;
+  padding: 10px;
+  border-radius: 5px;
+}
+.message .button{
+  color: blue;
+}
+
+
 .main-website{
   width: 100%;
   display: flex;
