@@ -1,4 +1,4 @@
-import {BrowserRouter , Routes, Route} from 'react-router-dom';
+import {BrowserRouter , Routes, Route,HashRouter} from 'react-router-dom';
 import { DataProvider } from './components/Context';
 import Products from "./components/Products"
 import Header from './components/Header';
@@ -11,7 +11,7 @@ function App() {
    <DataProvider>
       <div className="main-website">
       <div className="container">
-        <BrowserRouter>
+        <HashRouter>
           <Header />
           <Routes>
             <Route path='/' element={<Home/>}/>
@@ -21,7 +21,7 @@ function App() {
            
           </Routes>
 
-        </BrowserRouter>
+        </HashRouter>
       </div>
     </div>
    </DataProvider>
