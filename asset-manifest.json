@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.f97c1907.css",
-    "main.js": "/static/js/main.fbb06fad.js",
-    "index.html": "/index.html",
-    "static/media/times-solid.svg": "/static/media/times-solid.ea7c95d7120c0efcb4b16602bf9049a5.svg",
-    "static/media/bars-solid.svg": "/static/media/bars-solid.e8db7520285d01597a75c139d54e29ce.svg",
-    "main.f97c1907.css.map": "/static/css/main.f97c1907.css.map",
-    "main.fbb06fad.js.map": "/static/js/main.fbb06fad.js.map"
+    "main.css": "/shopping-bag-with-context/static/css/main.d9d1957d.css",
+    "main.js": "/shopping-bag-with-context/static/js/main.a63c8f41.js",
+    "index.html": "/shopping-bag-with-context/index.html",
+    "static/media/times-solid.svg": "/shopping-bag-with-context/static/media/times-solid.ea7c95d7120c0efcb4b16602bf9049a5.svg",
+    "static/media/bars-solid.svg": "/shopping-bag-with-context/static/media/bars-solid.e8db7520285d01597a75c139d54e29ce.svg",
+    "main.d9d1957d.css.map": "/shopping-bag-with-context/static/css/main.d9d1957d.css.map",
+    "main.a63c8f41.js.map": "/shopping-bag-with-context/static/js/main.a63c8f41.js.map"
   },
   "entrypoints": [
-    "static/css/main.f97c1907.css",
-    "static/js/main.fbb06fad.js"
+    "static/css/main.d9d1957d.css",
+    "static/js/main.a63c8f41.js"
   ]
 }
