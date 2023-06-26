@@ -31,7 +31,7 @@ function Cart() {
     {
         cart.map(product => (
             <div className='details cart' key={product._id}>
-                <div className='img-container' style={{backgroundImage: process.env.PUBLIC_URL + `url(${product.images[0]})`}}>
+                <div className='img-container' style={{backgroundImage: `url(${product.images[0]})`}}>
                     
                 </div>
                 <div className='box-details'>

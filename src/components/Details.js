@@ -28,7 +28,7 @@ function Details() {
         Drtails.map(product => (
             <div className='details' key={product._id}>
                 <div className='img-container'
-                 style={{backgroundImage: process.env.PUBLIC_URL + `url(${product.images[index]})`}}
+                 style={{backgroundImage: + `url(${product.images[index]})`}}
                  onMouseMove={handleMouseMove}
                  ref={imgDiv}
                  >
@@ -49,7 +49,7 @@ function Details() {
                     <div className='thumb'>
                         {
                             product.images.map((img,index) => (
-                                <img onClick={() => setIndex(index)} src={process.env.PUBLIC_URL + img} alt="" key={index} />
+                                <img onClick={() => setIndex(index)} src={img} alt="" key={index} />
                             ))
                         }
                     </div>
