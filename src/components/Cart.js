@@ -10,7 +10,6 @@ function Cart() {
     const decrease = value.decrease
     const removeItem = value.removeItem
    const [total,setTotal] = useState(0)
-  
      useEffect(() => {
         const getTotal = () => {
             const res = cart.reduce((prev,item) => {
@@ -31,8 +30,8 @@ function Cart() {
     {
         cart.map(product => (
             <div className='details cart' key={product._id}>
-                <div className='img-container' style={{backgroundImage: `url(${product.images[0]})`}}>
-                    
+                <div className='img-container' >
+                      <img src={product.images[0]} alt="" style={{width : "100%"}} />
                 </div>
                 <div className='box-details'>
                     <h2>{product.title}</h2>

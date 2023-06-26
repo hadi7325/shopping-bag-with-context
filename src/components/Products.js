@@ -6,6 +6,7 @@ function Products() {
     const value = useContext(DataContext)
     const [products, setProducts] = value.products
     const addCart = value.addCart
+    console.log(products)
     return (
         <div className='products'>
             {products.map(product => (

@@ -10,7 +10,7 @@ function Details() {
     const imgDiv = useRef()
     const addCart = value.addCart;
 
-
+   console.log(products)
     const Drtails = products.filter((product , index) => {
         return product._id === id
     })
@@ -28,10 +28,12 @@ function Details() {
         Drtails.map(product => (
             <div className='details' key={product._id}>
                 <div className='img-container'
-                 style={{backgroundImage: + `url(${product.images[index]})`}}
+                  
+                 style={{backgroundImage:  `url(${product.images[index]})`}}
                  onMouseMove={handleMouseMove}
                  ref={imgDiv}
                  >
+                   
                     
                 </div>
                 <div className='box-details'>
